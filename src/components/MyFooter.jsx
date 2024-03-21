@@ -1,6 +1,5 @@
 import { Component } from "react";
 import { Container } from "react-bootstrap";
-import './footer.css';
 
 
 function Footer(){
@@ -29,7 +28,7 @@ function Footer(){
                   <p className="iff">Accessibilità</p>
                 </div>
                 <div>
-                  <p style={{ color: '#969696' }}>&copy;2024 Library.net</p>
+                  <p>&copy;2024 Library.net</p>
                 </div>
               </div>
             </div>

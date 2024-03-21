@@ -2,6 +2,7 @@
   text-align: center;
 }
 
+
 .App-logo {
   height: 40vmin;
   pointer-events: none;
@@ -12,7 +13,26 @@
     animation: App-logo-spin infinite 20s linear;
   }
 }
+.cont {
+  width: 100%;
+  border-top: 0.3px solid black;
+  padding-block: 55px;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
 
+
+.punto a {
+  text-decoration: none; 
+  color:black;
+}
+
+.iff:hover{
+  color:white;
+  text-decoration: underline;
+  cursor: pointer;
+}
 .App-header {
   background-color: #282c34;
   min-height: 100vh;
